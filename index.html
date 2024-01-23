@@ -1,9 +1,79 @@
-<HTML>
-<HEADER><TITLE> matthews browser page</TITLE></HEADER>
-    <body style="background-color:lightblue">
-<BODY>
-Hello and welcome to my webpage
-</BODY>
+<html>
+<script
+    src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+     <script src="sketch.js"></script> 
+     <style>
+       #defaultBlock {
+         display: table;
+                }
+       div {
+         float: left;
+         height: 470px;
+         width: 100%;
+         padding: 10px;
+       }
+        #block0{
+        background-color: #586BF8 ;
+         }
+       #block1 {
+           height: 200px;
+         background-color: #33FFF5;
+       }
+       #block2 {
+                      height:640px;
+         background-color: #33BCFF;
+       }       #block3 {
+           width: 48.4%;
+         background-color: #334AFF; 
+      }
+         #block4 {
+             width: 48.4%;
+             background-color:#33FFF5;
+             }
+       h2 {
+         text-align: center;
+       }
+     </style>
+   <body>
+     <main id="defaultBlock">
+       <h2>longkeno1 webpage</h2>
 
-        
-</HTML>
+       <div id="block0">
+         <h2>Welcome to my first webpage</h2>
+    
+       </div>
+         
+         
+       <div id="block1">
+         <h2>weather for the week</h2>
+         <a class="weatherwidget-io" href="https://forecast7.com/en/43d65n79d38/toronto/" data-label_1="TORONTO" data-label_2="WEATHER" data-theme="original" >TORONTO WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script> 
+           <A href="https://www.theweathernetwork.com/">click here for weather</A>
+       </div>
+       <div id="block2">
+         <h2>my calender</h2>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=bWF0dGhldy5icnVuZWF1QHN0dWRlbnQudGRzYi5vbi5jYQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=dGRzYi5vbi5jYV9jbGFzc3Jvb21lMTdhMWQ1OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dGRzYi5vbi5jYV9jbGFzc3Jvb21mNmQwNmJmMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dGRzYi5vbi5jYV9jbGFzc3Jvb201Y2Q2ZTdlZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dGRzYi5vbi5jYV9jbGFzc3Jvb21hYTdkOGExNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21iYWMwZjZjMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21hZTAwMDEyMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21lN2NlNTdlM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb203OTk0MTk1N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb205YzE0MmM5ZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201ZGQ2YTAxOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21hMmQ3MDBiN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20xZjY5YmFmM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21hOTg5MDY3Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb204MjlmYzIzOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb200MzE3MWJiNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20yZTBlOTU0OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20zYzNkMTdmMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20wNWI3M2ZjOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4uY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&src=dGRzYi5vbi5jYV9jbGFzc3Jvb205OTU1MGZjNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20wOTdmYzJkYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dGRzYi5vbi5jYV9jbGFzc3Jvb21iNWQ0ZWJkNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%231c3aa9&color=%23055524&color=%23a52714&color=%23202124&color=%230047a8&color=%23c26401&color=%230047a8&color=%23174ea6&color=%230047a8&color=%23202124&color=%230047a8&color=%230047a8&color=%23202124&color=%23202124&color=%230047a8&color=%230047a8&color=%23202124&color=%230047a8&color=%230B8043&color=%23004d40&color=%230047a8&color=%23a52714" style="border:solid 1px #777" width= "100%" height="600" frameborder="0" scrolling="no"></iframe>
+       </div>
+       <div id="block3">
+         <h2>links to some assignments I have made</h2>
+
+           <A              href="https://editor.p5js.org/myuserismatthew/full/_G0EGSzON">click for cool caterpillar game</A>
+           <BR>
+           <BR>
+           <A
+href="https://replit.com/@MatthewBruneau/cosine-reverse#main.py">click for inverse of cosine</A>
+           <BR>
+           <BR>
+           <A
+href="https://editor.p5js.org/myuserismatthew/full/_G0EGSzON">click here for tic tac toe game</A>
+                  </div>
+       <div id="block4">
+         <h2>Title 2</h2>
+    ola
+       </div>
+                  align-items: center;
+     </main>
+   </body>
+ </html>
